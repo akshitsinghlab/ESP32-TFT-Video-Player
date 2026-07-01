@@ -1,0 +1,14 @@
+# ESP32-TFT-Video-Player — Python converter dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Pillow is optional. It is only used when --sharpen or --contrast are passed.
+# If you do not need those options you can skip it.
+
+opencv-python>=4.8.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Optional — needed for --sharpen and --contrast flags
+Pillow>=10.0.0
